@@ -1,0 +1,22 @@
+desk: main interface with the rest of the 'library'
+
+//setup phase
+
+username = context.username
+acii = #s.lib.acii() //sets up the acii art (prob should be stored in a db instead?)
+regusers = #s.lib.userlist //Gives a list of currently authenticated users.
+
+if username !match user in regusers {
+	throw an error, and direct the user to contact meta for authentication.
+	}
+
+//If user is in the database, but either forgot to enter the password param or entered a wrong one,
+// throw another error, and direct them accordingly. (Maybe make the password entry system 
+// protected after so many attempts?)
+
+if username match user in regusers && passwordEntered = passwordStored {
+	throw welcome text, and prompt user to choose from a list of (listed) possible options
+}
+
+// To test the desk functionality, have 2 options: Send a Funny Message; Display a list 
+// of 10 safe scripts that are important/well-made utility tools for the game.
