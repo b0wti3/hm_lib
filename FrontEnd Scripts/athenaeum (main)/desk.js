@@ -28,16 +28,34 @@ function(context, args)
     let lib = #fs.scripts.lib()
 
     // Base Object / Base Page Array Setup
-    baseArr = [];
-    baseObj = {
-        // key-value pairs here.
+    let baseArr = [];
+    
+    
+    let baseObj = {
+        logObj : [],
+        pageObj : {}
     };
 
     // Core Functions
 
 
 
-    function pageBuilder (obj, type, decider) {
+    function pageBuilder (obj, pageType, decider) {
+        let defaultPages = (type, str) => #fs.athenaeum.default_pages(type, str)
+        
+        
+        if (decider === "slim") {
+            let defaultObj = defaultPages(pageType,"slim");
+        } else {
+            let defaultObj = defaultPages(pageType,"full");
+        }
+        
+        let newObj = {};
+        
+        for (let key in obj.pageObj) {
+            
+        }
+        
         // This function is passed a object that has to remain a consistant standard and something that can easily be processed by multiple scripts. Should a function constructor be used? Or will simply defining one object be enough since the script only processes one page at a time?
         
         // obj: the obj that contains page information to be passed out to user.
@@ -57,6 +75,10 @@ function(context, args)
             // Reject Script Request and return out page message.
         }
     }
+
+    baseObj.parameters = args;
+
+    
     */
     const splash = #fs.athenaeum.lib_splash()
     return splash;
