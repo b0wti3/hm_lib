@@ -24,50 +24,28 @@ function(context, args)
 
 
 
-    // Main Variable / Scriptor Setup
-    let lib = #fs.scripts.lib()
-
-    // Base Object / Base Page Array Setup
-    let baseArr = [];
+    // Required Libraries . . .
+        // . . . are imported here!
+        let lib = #fs.scripts.lib();
+        //let Page = #fs.athenaeum.pageConstructer();
     
-    
-    let baseObj = {
-        logObj : [],
-        pageObj : {}
-    };
 
-    // Core Functions
+    // Core Functions . . .
+        // . . . are written here!
 
 
 
-    function pageBuilder (obj, pageType, decider) {
-        let defaultPages = (type, str) => #fs.athenaeum.default_pages(type, str)
-        
-        
-        if (decider === "slim") {
-            let defaultObj = defaultPages(pageType,"slim");
-        } else {
-            let defaultObj = defaultPages(pageType,"full");
-        }
-        
-        let newObj = {};
-        
-        for (let key in obj.pageObj) {
-            
-        }
-        
-        // This function is passed a object that has to remain a consistant standard and something that can easily be processed by multiple scripts. Should a function constructor be used? Or will simply defining one object be enough since the script only processes one page at a time?
-        
-        // obj: the obj that contains page information to be passed out to user.
-        // decider: A string set to either "full" or "slim" - decides whether to output a full page, or one that has only the bare essentials (decided by user).
-        
-        // takes object and picks correct default page frame to use from 'default_pages' script.
-        // formats default page based on user info, access level, and request(s).
-        // creates a string with final page compilation (and optional debug dump if requested by an admin / the owner? NYI / Thought Of)
-        // returns out completed string and debug dump.
-        
+    // Script's Brains . . .
+        // . . . start here!
+    let mainPage;
+
+    if (!args) {
+        mainPage = new Page()
     }
-    
+
+    let mainPage = new Page();
+
+
     // Code that filters out calls that could contain key values with scriptors / anything else unwanted:
     /*
     for (let key in args) {
@@ -78,10 +56,10 @@ function(context, args)
 
     baseObj.parameters = args;
 
-    
+
     */
     const splash = #fs.athenaeum.lib_splash()
     return splash;
-    
-    
+
+
 }
