@@ -6,6 +6,6 @@ function(context, args)
 	//  * Access a user-offered service list
 	//  * See a collated account of the game's lore and user-made events. (History book of some kind)
 
-    const splash = #fs.athenaeum.desk()
-    return splash;
+    const page = #fs.athenaeum.desk(args)
+    return page;
 }
