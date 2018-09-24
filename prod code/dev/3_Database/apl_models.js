@@ -83,9 +83,18 @@ let user = {
   password:'STRING', //either cleartext (and hope there are no breaches) or hashed upon creation (1st-party or 3rd-party hashing)
   role:'guest', //A role that has been assigned a user: ['guest','member','admin']
   stats:{
-    created: new Date().toUTCString(), //the date of the user's creation
+    created:new Date().toUTCString(), //the date of the user's creation
     verified: false //makes admins verify user creation, creating a user screening opportunity
   },
   type:'STRING', //['sentience','bot']
-  use:'password' //decides whether to auth by 1) the name of the 'user' [single-user access] or 2) a 'password'. [multiple-user access]
+  use:'password', //decides whether to auth by 1) the name of the 'user' [single-user access] or 2) a 'password'. [multiple-user access]
+  articles: [
+    {name:'STRING',_id:'STRING'}
+    {name:'STRING',_id:'STRING'}
+    {name:'STRING',_id:'STRING'}
+  ],
+  lists:[
+    {name:'STRING',_id:'STRING'}
+    {name:'STRING',_id:'STRING'}
+  ]
 };

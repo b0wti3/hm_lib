@@ -30,6 +30,17 @@
 	"    `K@@@@@@@@@@@@@@@@@@@@@` 	                                   `J(____\\`",
 	"       `K\\@@@@@@@@@@@@@*`"
 ]
+
+[
+	    '',
+        '   `H\\@@@@@@@@@@@@@*`',
+        '`H@@@@@@@@@@@@@@@@@@@@@`',
+        '`H@@@@@@@@@@@@@@@@@@@@@`',
+        '  `H,@@@@@@@@@@@@@@@,`',
+        '`J@@.              , @@`',
+        '`J@@@@@@@@@@@@@@@@@@@@@`',
+        ' `J*@@@@@@@@@@@@@@@@@.`'
+]
 	   
 Welcome to the Atheneaum Public Library (APL)!
 	Please select a `Ncat`egory from the list below.
@@ -69,24 +80,24 @@ Welcome to the Atheneaum Public Library (APL)!
 		11. Review User Profiles
 		
 	A. ARTICLE LOOKUP
-		1. TITLE Keywords
-		2. Exact TITLE
-		3. SERIES
-		4. SUBJECT
+		1. TITLE Keywords: part of name
+		2. Exact TITLE: exact name
+		3. SERIES: type
+		4. SUBJECT: tags
 		
 	B.	NEWS LOOKUP
-		1. Current News
-		2. News Keyword Search
-		3. News Subject Search
-		4. News Time Search
+		1. Current News: ticker list of latest 5 articles
+		2. News Keyword Search: part of name / exact name
+		3. News Subject Search: tags
+		4. News Time Search: publish date
 		
 	C.	LINKS
-		1. Keyword LINK Search
-		2. Category LINK Search
-		3. Exact LINK Lookup
+		1. Keyword LINK Search: part of name
+		2. Category LINK Search: type
+		3. Exact LINK Lookup: exact name
 		
 	D.	OTHER SEARCHES
-		1. TOP Articles
-		2. User PROFILE Keyword Search
-		3. Exact PROFILE Search
+		1. TOP Articles: ticker list of 5-7 articles based on view count stat
+		2. User PROFILE Keyword Search: part of name
+		3. Exact PROFILE Search: exact name
 		
