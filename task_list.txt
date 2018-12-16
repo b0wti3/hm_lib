@@ -1,0 +1,49 @@
+Phase I (Alpha)
+Goal:
+  Create the foundation scripts and functionality for APL, with the following abilities:
+    A. Allow new users to easily learn how to navigate APL
+    B. Let users navigate and read basic content pages, including by id and by basic search
+    C. Create administration / debuggin tools that are easy to use, that allow for smooth operation in the event of bugs
+
+Tasks to Complete:
+  FE
+    1. Outline and draft basic page navigation and page map
+    2. Create content for the base pages (home, about, help, etc)
+    3. Define the basic page formatting
+    4. Create help content for alpha features
+    5. Define key names and purposes to be used by ap.l
+    6. Design manual alpha ads
+  BE
+    1. Outline and code basic logic structure for decision tree (including room for other features)
+    2. Create 2 functions - the error creator and the page creator, with base features for alpha, with future planning for beta
+    3. Manage how config settings are handled on user 'ap', and implement base structure - db as prod, with script as bkp
+    4. Create basic admin controls - adding, removing, and editing articles
+    5. Make a function to generate a list of new/latest content (news, articles, profiles, lists)
+    6. Basic troubleshooting tools baked into script
+DB
+    1. Create access scripts to import Raw DB access out to central location
+    2. Implement raw db access and manipulation for whitelisted users
+    3. Design and flesh out basic models and schemas for each of the 6 databases
+    4. Basic content searching (articles and lists)
+CHECKUP:
+    Have experienced players "red team" service to look for ways to manipulate features, then find useabe mitigations.
+
+Phase II (Beta)
+Goal:
+  Add more robust features for users, while securing service from malicious abuse.
+    A. 
+    B. 
+    C. 
+
+Tasks to Complete:
+  
+  FE
+  BE
+  DB
+  BT
+
+Phase III (Full)
+FE
+BE
+DB
+BT

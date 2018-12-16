@@ -1,0 +1,103 @@
+       /@@@@@@@@@@@@@*        _______       _
+    @@@@@@@@@@@@@@@@@@@@@    (_______)  _  | |
+    @@@@@@@@@@@@@@@@@@@@@     _______ _| |_| |__  _____ ____  _____ _____ _   _ ____
+      ,@@@@@@@@@@@@@@@,      |  ___  (_   _)  _ \| ___ |  _ \(____ | ___ | | | |    \ 
+    @                  .@    | |   | | | |_| | | | ____| | | / ___ | ____| |_| | | | |
+    @@@@@@@@@@@@@@@@@@@@@    |_|   |_|  \__)_| |_|_____)_| |_\_____|_____)____/|_|_|_|
+    %@@@@@@@@@@@@@@@@@@@%
+         #@@@@@@@@@(          _       _ _
+    @@@.             ,@@@    (_)     (_) |
+    @@@@@@@@@@@@@@@@@@@@@     _       _| |__   ____ _____  ____ _   _
+     *@@@@@@@@@@@@@@@@@.     | |     | |  _ \ / ___|____ |/ ___) | | |
+                             | |_____| | |_) ) |   / ___ | |   | |_| |
+    @@@@@@&/,...,(&@@@@@@    |_______)_|____/|_|   \_____|_|    \__  |
+    @@@@@@@@@@@@@@@@@@@@@ 	                                   (____/
+       /@@@@@@@@@@@@@*
+[
+	"       `H\\@@@@@@@@@@@@@*`        `J_______       _`",
+	"    `H@@@@@@@@@@@@@@@@@@@@@`    `J(_______)  _  | |`",
+	"    `H@@@@@@@@@@@@@@@@@@@@@`     `J_______ _| |_| |__  _____ ____  _____ _____ _   _ ____`",
+	"      `H,@@@@@@@@@@@@@@@,`      `J|  ___  (_   _)  _ \\| ___ |  _ \\(____ | ___ | | | |    \\`",
+	"    `I@                  .@`    `J| |   | | | |_| | | | ____| | | \\ ___ | ____| |_| | | | |`",
+	"    `I@@@@@@@@@@@@@@@@@@@@@`    `J|_|   |_|  \\__)_| |_|_____)_| |_\\_____|_____)____\\|_|_|_|`",
+	"    `I%@@@@@@@@@@@@@@@@@@@%`",
+	"         `I#@@@@@@@@@(`          `J_       _ _`",
+	"    `J@@@.             ,@@@`    `J(_)     (_) |`",
+	"    `J@@@@@@@@@@@@@@@@@@@@@`     `J_       _| |__   ____ _____  ____ _   _`",
+	"     `J*@@@@@@@@@@@@@@@@@.`     `J| |     | |  _ \\ \\ ___|____ |\\ ___) | | |`",
+	"                             `J| |_____| | |_) ) |   \\ ___ | |   | |_| |`",
+	"    `K@@@@@@&\\,...,(&@@@@@@`    `J|_______)_|____\\|_|   \\_____|_|    \\__  |`",
+	"    `K@@@@@@@@@@@@@@@@@@@@@` 	                                   `J(____\\`",
+	"       `K\\@@@@@@@@@@@@@*`"
+]
+
+[
+	    '',
+        '   `H\\@@@@@@@@@@@@@*`',
+        '`H@@@@@@@@@@@@@@@@@@@@@`',
+        '`H@@@@@@@@@@@@@@@@@@@@@`',
+        '  `H,@@@@@@@@@@@@@@@,`',
+        '`J@@.              , @@`',
+        '`J@@@@@@@@@@@@@@@@@@@@@`',
+        ' `J*@@@@@@@@@@@@@@@@@.`'
+]
+	   
+Welcome to the Atheneaum Public Library (APL)!
+	Please select a `Ncat`egory from the list below.
+
+		1. `Vtop` articles
+		2. `Varticle` search
+		3. `Vnews`
+		4. `Vlink` lookup
+		5. user `Vprofile` lookup
+
+	For more commands, use { `Nget`:"`Vhelp`"}
+
+[
+	logo,
+	"",
+	"`JWelcome to the Atheneaum Public Library (APL)!`",
+	"	`JPlease select a `Ncat`egory from the list below.`",
+	"		`J1.` `Vtop` `Jarticles`",
+	"		2. `Varticle` `Jsearch`",
+	"		3. `Vnews`",
+	"		4. `Vlink` `Jlookup`",
+	"		5. `Juser` `Vprofile` `Jlookup`",
+	"",
+	"	`HFor more commands, use` { `Nget`:\"`Vhelp`\"}"
+]
+	
+	
+		1. TITLE Keywords (Keyword Search)
+		2. Exact TITLE (ID Search)
+		3. AUTHOR Browse (Account Search - Too complex to use)
+		4. SUBJECT Keywords (Topical Keyword Search)
+		5. SERIES 
+		7. Newspaper Keyword Search
+		8. Newspaper Subject Search
+		9. Top Stories
+		10. Additional Searches
+		11. Review User Profiles
+		
+	A. ARTICLE LOOKUP
+		1. TITLE Keywords: part of name
+		2. Exact TITLE: exact name
+		3. SERIES: type
+		4. SUBJECT: tags
+		
+	B.	NEWS LOOKUP
+		1. Current News: ticker list of latest 5 articles
+		2. News Keyword Search: part of name / exact name
+		3. News Subject Search: tags
+		4. News Time Search: publish date
+		
+	C.	LINKS
+		1. Keyword LINK Search: part of name
+		2. Category LINK Search: type
+		3. Exact LINK Lookup: exact name
+		
+	D.	OTHER SEARCHES
+		1. TOP Articles: ticker list of 5-7 articles based on view count stat
+		2. User PROFILE Keyword Search: part of name
+		3. Exact PROFILE Search: exact name
+		

@@ -1,4 +1,4 @@
-# Hackmud 'library' Project (v0.1.1 Alpha)
+# Hackmud 'library' Project (0.2.0 Alpha)
 ## By: \_meta\_
 This Project was created for the development of a Hackmud Library Service named 'APL' (Atheneaum Public Library). It is a in-game library for information of several sorts.
 
