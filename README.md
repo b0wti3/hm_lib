@@ -11,7 +11,7 @@ APL leverages a custom-code base that offers players new and old alike a place t
 Currently, the project is in pre-alpha development, and should move to closed alpha testing early 2019.
 
 ## How can I contribute?
-APL is currently being developed mainly by myself, but I am very welcome to collaboration with this project. A task list of tasks that need to be done is currently being made available. If you are interested in helping with one or more of those tasks, please contact me either directly in Discord (MB#7895), or within the [Unofficial Hackmud Server](https://discord.gg/Cfkddk6).
+APL is currently being developed mainly by myself, but I am very welcome to collaboration with this project. A list of tasks that need to be done is currently being made available ([found here](/task_list.md)). If you are interested in helping with one or more of those tasks, please contact me either directly in Discord (MB#7895), or within the [Unofficial Hackmud Server](https://discord.gg/Cfkddk6).
 
 #### This page will be updated as more work is done on this Project.
 #### Additional information can be found in the [Wiki](https://github.com/b0wti3/hm_lib/wiki).
