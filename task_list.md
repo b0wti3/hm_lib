@@ -34,23 +34,23 @@ Add more robust features for users, while securing service from malicious abuse.
 ### Tasks to Complete
 Development | Task | Owner | Status | Started | Ended | Comments
 ----------- | ---- | ----- | ------ | ------- | ----- | ---------
-FE | Improve the page formatting algorithim to improve page look | unassigned | to-do | | | |
-FE | Add hooks / secrets within UI interface for for puzzles tied into APL | unassigned | to-do | | | |
-FE | Update and expand help page interface | unassigned | to-do | | | |
-FE | Design manual ads | unassigned | to-do | | | |
-BE | Implement event logging into user activity. | unassigned | to-do | | | |
-BE | Create handling mechanisim for login events  | unassigned | to-do | | | |
-BE | Build out page editor for content creation (local-only for members, public for admins) | unassigned | to-do | | | |
-BE | Bake basic troubleshooting tools into scripts | unassigned | to-do | | | |
-BE | Content verification | unassigned | to-do | | | |
-DB | Further define models/schemas, and proof them for full features | unassigned | to-do | | | |
-DB | Implement 'dev' database model, which allows for content development seperate from prod content pages | unassigned | to-do | | | |
-DB | Create a basic versioning system along with edit lock-out | unassigned | to-do | | | |
-DB | Advanced searching by content 'tags' created by users | unassigned | to-do | | | |
-DB | Account Management commands | unassigned | to-do | | | |
-BT | Automate ads with 'pira' (retire then connect to seperate hm account) | unassigned | to-do | | | |
-BT | Create varying ads, implementing puzzle lore into them as well | unassigned | to-do | | | |
-BT | Have bot carry out automatic tasks for APL, pulling from seperate jade.vita account for bot payment | unassigned | to-do | | | |
+FE | Improve the page formatting algorithim to improve page look | unassigned | to-do | | |
+FE | Add hooks / secrets within UI interface for for puzzles tied into APL | unassigned | to-do | | | 
+FE | Update and expand help page interface | unassigned | to-do | | | 
+FE | Design manual ads | unassigned | to-do | | | 
+BE | Implement event logging into user activity. | unassigned | to-do | | | 
+BE | Create handling mechanisim for login events  | unassigned | to-do | | | 
+BE | Build out page editor for content creation (local-only for members, public for admins) | unassigned | to-do | | | 
+BE | Bake basic troubleshooting tools into scripts | unassigned | to-do | | | 
+BE | Content verification | unassigned | to-do | | | 
+DB | Further define models/schemas, and proof them for full features | unassigned | to-do | | | 
+DB | Implement 'dev' database model, which allows for content development seperate from prod content pages | unassigned | to-do | | | 
+DB | Create a basic versioning system along with edit lock-out | unassigned | to-do | | | 
+DB | Advanced searching by content 'tags' created by users | unassigned | to-do | | | 
+DB | Account Management commands | unassigned | to-do | | | 
+BT | Automate ads with 'pira' (retire then connect to seperate hm account) | unassigned | to-do | | | 
+BT | Create varying ads, implementing puzzle lore into them as well | unassigned | to-do | | | 
+BT | Have bot carry out automatic tasks for APL, pulling from seperate jade.vita account for bot payment | unassigned | to-do | | | 
 ### Testing (Open Beta)
 * Test account system and editor
 * Try fuzzing search inputs and see what safeguards need to be put in place
@@ -65,18 +65,18 @@ Complete all base features, and fully debug input and page creation/editing syst
 ###Tasks to Complete
 Development | Task | Owner | Status | Started | Ended | Comments
 ----------- | ---- | ----- | ------ | ------- | ----- | ---------
-FE | Finalize page creation function and how it integrates all content types (lists vs articles vs news vs profiles) | unassigned | to-do | | | | 
-FE | Make puzzle hook enabler system and integrate it into main service | unassigned | to-do | | | | 
-FE | Fully map out all potential pages logically for ease of navigation, and touch up all base pages | unassigned | to-do | | | | 
-FE | Finalize help page, and establish toubleshooting / help path for users | unassigned | to-do | | | | 
-FE | Design seperate look for page editor script | unassigned | to-do | | | | 
-BE | Dedicate a way for admins to access raw logs for APL | unassigned | to-do | | | | 
-BE | Finalize page editor for members and users, without connecting the two domains | unassigned | to-do | | | | 
-BE | Complete how 'tags' are defined and created, as well as complete content verification | unassigned | to-do | | | | 
-BE | For corp specific content, define safe way to verify identity and whitelisting without turning script nullsec | unassigned | to-do | | | | 
-DB | Define in full all models and schema, and implement into db commands | unassigned | to-do | | | | 
-DB | finish 'tag' definiation | unassigned | to-do | | | | 
-DB | Flesh out all possible searching, and safeguard the search functions | unassigned | to-do | | | | 
-BT | Setup all the chat channels for bots, help, and data exfiltration systems | unassigned | to-do | | | | 
+FE | Finalize page creation function and how it integrates all content types (lists vs articles vs news vs profiles) | unassigned | to-do | | |  
+FE | Make puzzle hook enabler system and integrate it into main service | unassigned | to-do | | |  
+FE | Fully map out all potential pages logically for ease of navigation, and touch up all base pages | unassigned | to-do | | |  
+FE | Finalize help page, and establish toubleshooting / help path for users | unassigned | to-do | | |  
+FE | Design seperate look for page editor script | unassigned | to-do | | |  
+BE | Dedicate a way for admins to access raw logs for APL | unassigned | to-do | | |  
+BE | Finalize page editor for members and users, without connecting the two domains | unassigned | to-do | | |  
+BE | Complete how 'tags' are defined and created, as well as complete content verification | unassigned | to-do | | |  
+BE | For corp specific content, define safe way to verify identity and whitelisting without turning script nullsec | unassigned | to-do | | |  
+DB | Define in full all models and schema, and implement into db commands | unassigned | to-do | | |  
+DB | finish 'tag' definiation | unassigned | to-do | | |  
+DB | Flesh out all possible searching, and safeguard the search functions | unassigned | to-do | | | 
+BT | Setup all the chat channels for bots, help, and data exfiltration systems | unassigned | to-do | | | 
 ### Testing (Closed Pre-Release)
 * Test test test the bots!!!
