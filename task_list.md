@@ -55,14 +55,14 @@ BT | Have bot carry out automatic tasks for APL, pulling from seperate jade.vita
 * Test account system and editor
 * Try fuzzing search inputs and see what safeguards need to be put in place
 * Try to break page formatting for content creation, and see what can be improved
-##Phase III (Beta)
-###Goals
+## Phase III (Beta)
+### Goals
 Complete all base features, and fully debug input and page creation/editing systems.
 * Complete base features for the editor (as seperate script)
 * Finialize page structure and navigation
 * Implement help system and write out rest of help page
 * Finalize all DB models/schemas, and test all types of content for APL
-###Tasks to Complete
+### Tasks to Complete
 Development | Task | Owner | Status | Started | Ended | Comments
 ----------- | ---- | ----- | ------ | ------- | ----- | ---------
 FE | Finalize page creation function and how it integrates all content types (lists vs articles vs news vs profiles) | unassigned | to-do | | |  
