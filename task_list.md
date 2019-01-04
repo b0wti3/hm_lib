@@ -8,13 +8,13 @@ Create the foundation scripts and functionality for APL, with the following abil
 ### Tasks to Complete
 Development | Task | Owner | Status | Started | Ended | Comments
 ----------- | ---- | ----- | ------ | ------- | ----- | ---------
-FE | Outline and draft basic page navigation and page map | meta | In-Progress | 12/23/18 | | 
-FE | Create content for the base pages (home, about, help, etc) | unassigned | to-do | | | 
-FE | Define the basic page formatting | unassigned | to-do | | | 
+FE | Outline and draft basic page navigation and page map | meta | completed | 12/23/18 | 01/02/18 | basic structure completed, along with rough ideas of key/value pairs that will be used
+FE | Create content for the base pages (home, about, help, etc) | meta | completed | 01/02/18 | 01/02/18 | pages that have yet to be made are 'profiles', 'search', 'closed', 'panel', and 'api'
+FE | Define the basic page formatting | meta | in-progress | 01/04/18 | | 
 FE | Create help content for alpha features | unassigned | to-do | | | 
-FE | Define key names and purposes to be used by ap.l | unassigned | to-do | | | 
+FE | Define key names and purposes to be used by ap.l | meta | completed | 01/02/18 | 01/02/18 | completed while outlining basic page navigation
 BE | Outline and code basic logic structure for decision tree (including room for other features) | unassigned | to-do | | | 
-BE | Create 2 functions - the error creator and the page creator, with base features for alpha, with future planning for beta | unassigned | to-do | | | 
+BE | Create 2 functions - the error creator and the page creator, with base features for alpha, with future planning for beta | meta | in-progress | 01/04/18 | | 
 BE | Manage how config settings are handled on user 'ap', and implement base structure - db as prod, with script as bkp | unassigned | to-do | | | 
 BE | Create basic admin controls - adding, removing, and editing articles | unassigned | to-do | | | 
 BE | Make a function to generate a list of new/latest content (news, articles, profiles, lists) | unassigned | to-do | | | 

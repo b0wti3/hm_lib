@@ -26,16 +26,16 @@ function (context, args) {
 		body:'`CSERVICE CLOSED.'
 	  },
 	  home:{
-		nav:'`Cap``A.``2l``C/``Vhome`',
-		body: [
-          '`AWelcome to` `IAPL``A. To begin, select an` `Noption` `Abelow:`',
-		  '   `A1.` `Vread_content`',
-		  '   `A2.` `Vsee_news`',
-		  '   `A3.` `Vget_profiles`',
-		  '',
-		  '`CQuestions about us? Go` `Nview` `Vabout_us `Cto get more information.`',
-		  '`CHave an account? Please` `Nlogin` `Cto begin.`'
-		]
+      nav:'`Cap``A.``2l``C/``Vhome`',
+      body: [
+        '`AWelcome to` `IAPL``A. To begin, select an` `Noption` `Abelow:`',
+        '   `A1.` `Vread_content`',
+        '   `A2.` `Vsee_news`',
+        '   `A3.` `Vget_profiles`',
+        '',
+        '`CQuestions about us? Go` `Nview` `Vabout_us `Cto get more information.`',
+        '`CHave an account? Please` `Nlogin` `Cto begin.`'
+      ]
 	  },
 	  about:{
 		nav:'`Cap``A.``2l``C/``Vabout_us`',
