@@ -20,7 +20,7 @@ BE | Create basic admin controls - adding, removing, and editing articles | unas
 BE | Make a function to generate a list of new/latest content (news, articles, profiles, lists) | unassigned | to-do | | | 
 DB | Create access scripts to import Raw DB access out to central location | unassigned | to-do | | | 
 DB | Implement raw db access and manipulation for whitelisted users | unassigned | to-do | | | 
-DB | Design and flesh out basic models and schemas for each of the 6 databases | unassigned | to-do | | | 
+DB | Design and flesh out basic models and schemas for each of the 6 databases | meta | in-progress | 01/06/18 | | 
 DB | Basic content searching (articles and lists) | unassigned | to-do | | | 
 ### Testing (Closed Alpha)
 * Have experienced players "red team" service to look for ways to manipulate features, then find useabe mitigations.
