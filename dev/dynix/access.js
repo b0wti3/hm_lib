@@ -7,7 +7,7 @@ function (context, args) {
     if (args.pK === pK) {
       if ('script' in args) {
         if (args.script === 'user_db') {
-          return #fs.dynix.user_db()
+          return #fs.dynix.db({model:"user"})
         } else {
           return false
         }
